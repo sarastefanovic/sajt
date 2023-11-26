@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Kristal | O nama </title>
+        <link rel="icon" href="img/logo.png" alt="Hotel logo" type="image/ico"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8"/>
+		<meta name="desription" content="Ovo je zvanični sajt Hotela Kristal"/>
+		<meta name="author" content="Sara Stefanović"/>
+		<meta name="language" content="sr"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+		
+    </head>
+
+    <body>
+        <!--deo za meni-->
+        <div id="deomeni">
+            <nav>
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo1.png" alt="Logo Hotel Kristal" title="Početna"/></a>
+                </div>
+                <ul id="meni">
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="sobe.html">Sobe</a></li>
+				    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="onama.html">Kontakti</a></li>
+                </ul>
+                <div class="cleaner"></div>
+            </nav>
+            <div id="pozslika">
+                <h1>Hotel Kristal</h1>
+            </div>
+        </div>
+
+<!--O NAMA-->
+<div id="onama" class="sadrzaj">
+            <div id="onamaTekst">
+                <h2>O nama</h2>
+                <p>U srcu prelepog grada Dohe, dočekuje vas Hotel Kristal - vaša oaza mira i udobnosti. Sa bogatom istorijom i savremenim luksuzom, naš hotel je domaćin putnicima iz celog sveta već više od 10 godina.Hotel Kristal osnovan je sa strašću za pružanjem nezaboravnog iskustva gostima. Od skromnih početaka, evoluirali smo u renomiranu destinaciju koja spaja eleganciju sa savremenim pristupom gostoprimstvu.</p>
+            </div>
+            <div id="onamaSlika">
+                <img src="img/spa.jpg" alt="Hotel Kristal"/>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+		<!--kontakti-->
+            <div id="brziKontakt" class="sadrzaj">
+                <div class="kontakt">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <h4>Radno vreme</h4>
+                    <p>08:00 - 00:00</p>
+                </div>
+                <div class="kontakt">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h4>Adresa</h4>
+                    <p>Old Al Ghanam ,Tariqe Bin Zayad St.<br/>Doha, Katar</p>
+                </div>
+                <div class="kontakt">
+                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                    <h4>Kontakt</h4>
+                    <p>31/55713861<br/>
+                    hotelkristal@gmail.com</p>
+                </div>
+                <div class="cleaner"></div>
+            </div>
+
+            
+<!--REZERVACIJE-->
+        <div id="forma" class="sadrzaj">
+            <h3>Rezervišite</h3>
+            <form id="pretragaForma" method="#" action="#">
+                <input type="text" name="ime" class="poljeForme" placeholder="Ime"/>
+                <input type="text" name="prezime" class="poljeForme" placeholder="Prezime"/>
+                <input type="email" name="prezime" class="poljeForme" placeholder="Email"/><br/>
+                <select name="brojOsoba" id="ddl" class="poljeForme" >
+                    <option value="0">Broj osoba</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <input type="radio" name="polupansion" class="punpolu" value="2"/><label>Polupansion</label><br/>
+                <input type="submit" name="dgm" id="submit" value="Rezerviši"/>
+                <input type="checkbox" class="check" name="privatnost" value="dozvola"/> <label>Prihvatam pravila privatnosti</label>
+            </form>
+        </div>
+<!--FOOTER-->
+<footer>
+            <div class="fut">
+                <div class="futer">
+                    <a href="index.html"><img src="img/logo1.png" alt="Logo Caffe Vir"/></a>
+                </div>
+                <div class="futer">
+                    
+                </div>
+                <div class="cleaner"></div>
+            </div>
+            <div class="fut futMalo">
+                <li id="autorLi"><a href="autor.html">Sara Stefanović 2007/23</a></li>
+                <p>| SVA PRAVA ZADRŽANA | 2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; |</p>
+                <div class="cleaner"></div>
+            </div>
+        </footer>
+
+        
+    </body>
+</html>

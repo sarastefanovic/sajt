@@ -1,0 +1,420 @@
+@font-face{
+	src: url('../fonts/font.ttf');
+	font-family:'font';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cleaner{
+    clear: both;
+}
+body{
+    font-family: 'font';
+	background-color:#fff;
+}
+li{
+    list-style-type:none;
+}
+a {
+    text-decoration:none;
+}
+
+/*deo meni*/
+#deomeni{
+	width:100%;
+	background-image:url("../img/probnapoz1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+    background-position:center;
+    padding-top: 30px;
+	height:600px;
+	margin-top:-70px;
+	
+	
+}
+nav{
+    width:90%;
+    margin: 62px auto;
+    border: 2px  #fff;
+    background-color: rgba(240, 240, 240, 0.7);
+    border-radius: 20px;
+    padding: 10px;
+}
+#logo{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+#logo img{
+    width: 30%;
+}
+#meni{
+    float: right;
+    padding-top: 25px;
+}
+#meni li{
+    display: inline;
+    margin: 0px 30px;
+}
+#meni li a{
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+#meni li a:hover{
+    border-bottom: 2px solid #fff;
+}
+#pozslika{
+    width: 90%;
+    margin: 0% auto;
+    padding: 200px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+#pozslika h1{
+	margin-top:-170px;
+}
+	
+	
+.ponuda{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
+	border-radius:20px;
+    border: 4px solid #888;
+	
+	
+   
+   
+}
+
+
+}
+
+h2 {
+    color: rgb(20,27,39,); /* Plava boja za naslove ponuda */
+}
+
+.price {
+    font-size: 1.5em; /* Povećajte veličinu fonta za cenu */
+    color: #27ae60; /* Zelena boja za cenu */
+}
+
+.discounted-price {
+    text-decoration: line-through; /* Precrtajte staru cenu */
+    color: #e74c3c; /* Crvena boja za sniženu cenu */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+#sadrzajponude img {
+    max-width: 75%;
+    border-radius: 20px;
+	margin-top:-76px;
+	margin-bottom:9px;
+	margin-left:25%;
+}
+#sadrzajponude h2{
+	color:#333;
+}
+
+#izdvajamo{
+     text-align: center;
+     width: 90%;
+ }
+ #izdvojeno{
+     display: flex;
+	 
+ }
+ #izdvajamo h1{
+    font-size: 40px;
+    color: #888;
+	
+}
+ #izdvajamoSadrzaj{
+     width: 25%;
+ }
+ #izdvajamoSadrzaj img{
+    width: 70%;
+    margin: 50px 0px 30px 0px;
+    border-radius: 20px;
+}
+#izdvajamoSadrzaj h2{
+    font-size: 30px;
+    color: #888;
+    margin-bottom: 15px;
+}
+#izdvajamoSadrzaj p{
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 15px;
+}
+#izdvajamoSadrzaj li{
+    margin-top:20px;
+ }
+ #izdvajamoSadrzaj li a{
+    color: #fff;
+    font-size: 20px;
+    padding:10px 30px;
+    background-color: #9c8463;
+    border-radius: 20px;
+ }
+ #izdvajamoSadrzaj li a:hover{
+    color: #9c8463;
+    background-color: #fff;
+ }
+ footer{
+    background-color: #9c8463;
+}
+.fut{
+    display: flex;
+    width: 90%;
+    margin-top:75px;
+    padding: 30px;
+}
+.futer{
+    text-align: center;
+    width: 50%;
+}
+.futer img{
+width: 17%;
+margin-left:-525px;
+margin-top:30px;}
+
+.futMalo{
+margin-top:18px;
+border-top: 1px solid #fff;
+}
+.fut p{
+    color: #fff;
+    font-size: 20px;
+    margin:20px 0px 0px 450px;
+}
+#autorLi{
+    font-size: 35px;
+    padding: 10px 30px;
+    float: left;
+    margin-left: 110px;
+}
+#autorLi a{   
+    color: #ccc;
+}
+#specijalno{
+    background-color:#fff;
+    padding: 20px;
+}
+#specijalnoLevo{
+    float: left;
+    width: 50%;
+}
+#specijalnoDesno{
+    float: right;
+    width: 50%;
+}
+.specijalnoArtikli{
+    margin: 30px 0px;
+}
+.specijalnoSlika{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.specijalnoSlika img{
+    width: 100%;
+    border: 6px solid #fff;
+    box-shadow: 10px 10px 5px grey;
+}
+.specijalnoSlika img:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: 1s;
+}
+.specijalnoOpis{
+    float: right;
+    width: 60%;
+    padding-right: 30px;
+}
+.specijalnoOpis h2{
+   color: #888;
+   font-size: 35px;
+}
+.specijalnoOpis p b{
+    color: #ccc;
+    font-size: 20px;
+ }
+ .specijalnoOpis p{
+    color: #888;
+    font-size: 20px;
+ }
+ .specijalnoOpis li{
+    margin-top:20px;
+ }
+ .specijalnoOpis li a{
+    color: #333;
+    font-size: 20px;
+    padding:10px 30px;
+    background-color: #9c8463;
+    border-radius: 20px;
+	
+ }
+ #specijalnoLevo{
+ margin-top: 9%;}
+ 
+ 
+ .specijalnoSlike{
+    float: none;
+    width: 60%;
+    text-align: center;
+	margin-top:-133px;
+	margin-left:140px;
+}
+.specijalnoSlike img{
+    width: 100%;
+    border: 6px solid #fff;
+    box-shadow: 10px 10px 5px grey;
+}
+.specijalnoSlike img:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: 1s;
+}
+.specijalnoOpis1{
+    float: right;
+    width: 60%;
+    padding-right: 140px;
+	padding-top:25px;
+}
+.specijalnoOpis1 h2{
+   color: #888;
+   font-size: 35px;
+}
+.specijalnoOpis1 p b{
+    color: #ccc;
+    font-size: 20px;
+ }
+ .specijalnoOpis1 p{
+    color: #888;
+    font-size: 20px;
+ }
+ .specijalnoOpis1 li{
+    margin-top:20px;
+ }
+ .specijalnoOpis1 li a{
+    color: #333;
+    font-size: 20px;
+    padding:10px 30px;
+    background-color: #9c8463;
+    border-radius: 20px;
+	
+ }
+ .slikaGalerija{
+    width: 25%;
+    padding: 50px;
+    float:right;
+}
+.slikaGalerija img{
+   
+    width: 100%;
+    border-radius: 20px;
+}
+.slikaGalerija img:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+.sadrzaj {
+    width: 90%;
+    margin: 40px auto;
+	
+}
+#onamaTekst{
+    text-align: center;
+    float: left;
+    width: 50%;
+	margin-left:-30px;
+}
+#onamaSlika{
+    float: right;
+    width: 50%;
+}
+#onamaSlika img{
+    width: 100%;
+    border: 6px solid #fff;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+}
+#onamaTekst h2{
+    font-size: 40px;
+    color: #888;
+    margin-bottom: 30px;
+}
+#onamaTekst p{
+    font-size: 25px;
+    color: #888;
+}
+#forma{
+    text-align: center;
+}
+#forma h3{
+    font-size: 30px;
+    color: #888;
+    margin-bottom: 30px;
+}
+.poljeForme{
+    width: 50%;
+    font-size: 20px;
+    padding: 8px;
+    background: #ccc;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid #888;
+}
+#ddl{
+    width: 30%;
+    margin-right: 60px;
+}
+.poljeForme:focus{
+    background: #fff;
+}
+.punpolu{
+    margin-left: 20px;
+}
+label{font-size: 20px;
+    margin-left: 5px;
+}
+#submit{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #888;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    border: 2px solid #333;
+}
+#submit:hover{
+    background-color: #fff;
+    color: #333;
+}
+#brziKontakt{
+     display: flex;
+ }
+ .kontakt{
+     width: 33%;
+     text-align: center;
+ }
+ .kontakt i{
+     color: #333;
+     font-size: 40px;
+ }
+ .kontakt h4{
+    color: #333;
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.kontakt p{
+    color: #888;
+    font-size: 20px;
+}

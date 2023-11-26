@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Kristal | Početna </title>
+        <link rel="icon" href="img/logo.png" alt="Hotel logo" type="image/ico"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8"/>
+		<meta name="desription" content="Ovo je zvanični sajt Hotela Kristal"/>
+		<meta name="author" content="Sara Stefanović"/>
+		<meta name="language" content="sr"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    </head>
+
+    <body>
+        <!--deo za meni-->
+        <div id="deomeni">
+            <nav>
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo1.png" alt="Logo Hotel Kristal" title="Početna"/></a>
+                </div>
+                <ul id="meni">
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="sobe.html">Sobe</a></li>
+				    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="onama.html">Kontakti</a></li>
+                </ul>
+                <div class="cleaner"></div>
+            </nav>
+            <div id="pozslika">
+                <h1>Hotel Kristal</h1>
+            </div>
+        </div>
+
+       <section class="ponuda">
+	   <div id="sadrzajponude">
+        <h2>VIKEND PAKET</h2>
+        <p>Idealna prilika da se odvojite od svakodnevne gužve, stresa i gradske guzve. Provedite kvalitetno dane vikenda sa svojom porodicom u modernom i futuristickom gradu kao sto je Doha. Na 5,5 sata laganog leta od Beograda, hotel Kristal pružiće vam nezaboravne trenutke.</p>
+        <p>01.10.2023.-30.11.2023.</p>
+        <p>REZERVIŠITE NA POPUSTU PO CENI OD</p>
+        <p class="price">28.800 RSD</p>
+        <p>CENA</p>
+        <p class="discounted-price">38.200 RSD</p>
+		<img alt="Vikend" src="img/vikend.jpg">
+		</div>
+    </section>
+
+    <section class="ponuda">
+	<div id="sadrzajponude">
+        <h2>ROMANTIČNI PAKET</h2>
+        <p>Svaka zaljubljena duša sanja o tome da provede romantični period sa voljenim bićem, tamo gde će moći da uživa u pogledu, dugim šetnjama, predivnoj prirodi i plazi i jedinstvenom okruženju. Upravo za takve želje kreiran je hotel Kristal, u srcu oaze okruzene pustinjom i morem.</p>
+        <p>01.10.2023.-30.11.2023.</p>
+        <p>REZERVIŠITE PO CENI OD</p>
+        <p class="price">31.000 RSD</p>
+		<img alt="Romanticni pogled" src="img/romanticno.jpg">
+		</div>
+    </section>
+
+    <section class="ponuda">
+	<div id="sadrzajponude">
+        <h2>PORODIČNI PAKET</h2>
+        <p>Idealna prilika za jedinstveno putovanje sa vasom porodicom. Provedite kvalitetno vreme sa svojom porodicom radnim danima od ponedeljka do četvrtka u srcu oaze, prepune iznenadjenja i raznih aktivnosti koje bi vam upotpunile dan i ucinile vas odmor nezaboravnim.</p>
+        <p>01.10.2023.-30.11.2023.</p>
+        <p>REZERVIŠITE PO CENI OD</p>
+        <p class="price">40.800 RSD</p>
+		<img alt="Porodica" src="img/porodica.jpg">
+		</div>
+    </section>
+	
+	<!--cetiri dela-->
+       <div id="izdvajamo" class="sadrzaj">
+            <h1>Izdvajamo</h1>
+            <div id="izdvojeno">
+                <div id="izdvajamoSadrzaj">
+                    <img src="img/spa.jpg" alt="Spa centar">
+                    <h2>Spa centar</h2>
+                    <p>Sauna, Turko kupatilo, Bazen...</p>
+                    <li class="more"><a href="#">Više&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                </div>
+                <div id="izdvajamoSadrzaj">
+                    <img src="img/restoran.jpg" alt="Enterijer restorana">
+                    <h2>Restoran</h2>
+                    <p>Dorucak, Vecera, Bar, Italijansko vece...</p>
+                    <li class="more"><a href="#">Više&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                </div>
+                <div id="izdvajamoSadrzaj">
+                    <img src="img/sala.jpg" alt="Sala za konferencije">
+                    <h2>Konferencijska sala</h2>
+                    <p>Poslovni sastanci, Kongresi, Sajmovi...</p>
+                    <li class="more"><a href="#">Više&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                </div>
+                <div id="izdvajamoSadrzaj">
+                    <img src="img/deca.jpg" alt="Igraliste">
+                    <h2>Igraonica za decu</h2>
+                    <p>Iskusni vaspitaci,dadilja</p>
+                    <li class="more"><a href="#">Više&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                </div>
+                <div class="cleaner"></div>
+            </div>
+        </div>
+		
+        <!--Futer-->
+        <footer>
+            <div class="fut">
+                <div class="futer">
+                    <a href="index.html"><img src="img/logo.png" alt="Logo Caffe Vir"/></a>
+                </div>
+                <div class="futer">
+                    
+                </div>
+                <div class="cleaner"></div>
+            </div>
+            <div class="fut futMalo">
+                <li id="autorLi"><a href="autor.html">Sara Stefanović 2007/23</a></li>
+                <p>| SVA PRAVA ZADRŽANA | 2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; |</p>
+                <div class="cleaner"></div>
+            </div>
+        </footer>
+
+        
+    </body>
+</html>
